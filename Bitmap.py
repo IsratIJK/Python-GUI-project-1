@@ -1,0 +1,15 @@
+from tkinter import *
+window=Tk()
+window.geometry('500x500+150+300')
+window.title('Hello! This is my first project')
+b=Button(text='Hello! This is my first project',bitmap="error").grid()
+b=Button(text='Hello! This is my first project',bitmap="hourglass").grid()
+b=Button(text='Hello! This is my first project',bitmap="info").grid()
+b=Button(text='Hello! This is my first project',bitmap="gray75").grid()
+b=Button(text='Hello! This is my first project',bitmap="gray25").grid()
+b=Button(text='Hello! This is my first project',bitmap="gray12").grid()
+b=Button(text='Hello! This is my first project',bitmap="warning").grid()
+b=Button(text='Hello! This is my first project',bitmap="question").grid()
+l=Label(text='Hello! This is my first project',fg='red',bg='blue').grid(row=1,column=1)
+# we can't use grid() and pack() at a time.
+window.mainloop()

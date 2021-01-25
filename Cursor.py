@@ -1,0 +1,22 @@
+from tkinter import *
+window=Tk()
+window.geometry('500x500+150+300')
+window.title('Hello! This is my first project')
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="circle").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="heart").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="plus").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="clock").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="dotbox").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="man").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="mouse").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="pirate").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="sizing").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="star").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="hand2").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="boat").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="pencil").grid()
+b=Button(text='Hello! This is my first project',relief=RAISED,cursor="question_arrow").grid()
+
+l=Label(text='Hello! This is my first project',fg='red',bg='blue').grid(row=1,column=1)
+# we can't use grid() and pack() at a time.
+window.mainloop()
